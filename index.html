@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>інтернет магазин Style</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <div class="clock"></div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                Головна<span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                Новинки <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                Одяг<span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                Аксесуари<span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="form.html">
+                                Контакти<span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row-menu">
+                <nav>
+                    <a href="registration">Registration</a>
+                    <a href="backets">Backets</a>  
+                    <div class="lang">
+                    <form>
+                        <label>
+                            <input type="radio" name="lang" id='EngON'>EN
+                
+                        </label>
+                        <label>
+                            <input type="radio" name="lang" id='UkrON' checked>UA
+                        </label>
+                    </form>          
+                </nav>
+            </div>  
+            <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Пошук</button>
+    </form>
+            <div class="header top">
+                <div class="header_logo">
+                    <h1>Style</h1>
+                    <div class="header-information">інтернет-магазин чоловічого одягу</div>
+                </div>
+                <br>
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <a href="main">Головна</a>
+                        </li>
+                        <li>
+                            <a href="News">Новинки</a>
+                        </li>
+                        <li>
+                            <a href="Clothers">Одяг</a>
+                        </li>
+                        <li>
+                            <a href="Accessories">Аксесуари</a>
+                        </li>
+                        <li>
+                            <a href="form.html">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="carouselProducts" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselProducts" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselProducts" data-slide-to="1"></li>
+                    <li data-target="#carouselProducts" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/slider.jpg" class="d-block w-100" alt="slider">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/clothes.jpg" class="d-block w-100" alt="slider">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/image.jpg" class="d-block w-100" alt="slider">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselProducts" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselProducts" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </header>
+        <main>
+            <section>
+                <h2 id="new">Новинки</h2>
+                <div class="products">
+                    <div class="product-list">
+                        <img src="img/jacket.jpg" alt="Jacket">
+                        <div class="clothes">Куртки </div>
+                    </div>
+                    <div class="product-list">
+                        <img src="img/sweter.jpg" alt="sweter">
+                        <div class="clothes">Кофти</div>
+                    </div>
+                    <div class="product-list">
+                        <img src="img/hoodies.jpg" alt="hoodies">
+                        <div class="clothes">Балахони</div>
+                    </div>
+                    <div class="product-list">
+                        <img src="img/shoes.jpg" alt="shoes">
+                        <div class="clothes">Взуття</div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="about">
+                    <h3 class="brend">Про бренд</h3>
+                    <div class="about-shop">Інтернет магазин одягу Style - ваш провідник у світ зручного та стильного вбрання. Ми створили цей каталог одягу, аби кожен українець міг швидко оновити свій гардероб до нового сезону та підібрати аксесуари, котрі насправді личать!
+Комфорт, якість та індивідуальність - ось три кити, на яких тримається наш світ. Ми віримо у вкрай прості речі: зручність, право вибору, доступні ціни, хороший сервіс та швидку доставку.</div>
+                    <br>
+                    <p>
+                        У каталогах Style представлена стильна чоловічий одяг Європейських брендів, доставку якої ви можете легко замовити не тільки у великі Київ, Харків, Дніпропетровськ, Одесу, а і в невеликі міста. Так чого ж чекати?! Поспішайте купити модний чоловічий одяг!
+                    <br>
+                    </p>
+                    <br>
+                    <p>Ми дотримуємося чоловічого стилю не тільки в одязі, а і вирішенні будь-яких питань. Все просто і лаконічно! Зрозуміла навігація по категоріях і стилів, фільтрація по вартості, кольорам і розмірам (визначайте його, користуючись нашою «Лінійкою розмірів»).
+                    
+</br>Робіть свій вибір, додайте товар в кошик і оформлюйте замовлення. Протягом дня наш менеджер зясує деталі і відправить покупку «Новою Поштою». Приймаємо оплату на банківський рахунок, або сплачуйте при отриманні – вибирайте, що зручніше. Не встигнете озирнутися, як обновка вже буде у вас в руках!
+                    <br>
+<br>Бажаємо продуктивного шопінгу!                   
+</p>
+<button class="showme" style="vertical-align:middle">
+    <span>Читати повністю</span>
+</button>
+</div></section><br>
+<section>
+    <h4>Розсилка</h4>
+    <div class="mailing">
+        <div class="action">Хочеш першим дізнатись про всі акції та новини?Підпишись на розсилку прямо зараз!
+                    </div>
+        <br>
+        <form class="login-form">
+            <label>
+                Name: <input type="text" name="name">
+            </label>
+            <label>
+                Password: <input type="password" name="password">
+            </label>
+            <br>
+            <input type="submit">
+        </form>
+        <br>
+        <label>
+            <input type="radio" name="Політика конфіденційності." value="male">Я висловлюю згоду на обробку моїх персональних даних Style з метою реалізацій послуг розсилки полягає в передачі комерційної інформації про послуги та продукти відповідно до Закону про надання послуг електронним шляхом.                       
+                    
+        </label>
+    </div>
+</section>
+<section>
+    <div class="list">
+        <nav>
+            <h5 class="logo">Допомога</h5>
+            <ul class="help">
+                <li>
+                    <a href="#">Контакти</a>
+                </li>
+                <li>
+                    <a href="#products">Як купити</a>
+                </li>
+                <li>
+                    <a href="#contacts">Поради</a>
+                </li>
+            </ul>
+        </nav>
+        <nav>
+            <h5 class="logo">Інформація</h5>
+            <ul class="information">
+                <li>
+                    <a href="#">Оплата, Умова, Доставка</a>
+                </li>
+                <li>
+                    <a href="#products">Обмін та повернення</a>
+                </li>
+                <li>
+                    <a href="#contacts">Статус повернення</a>
+                </li>
+            </ul>
+        </nav>
+        <nav>
+            <h5 class="logo">Мій акаунт</h5>
+            <ul class="acount">
+                <li>
+                    <a href="#">Реєстрація</a>
+                </li>
+                <li>
+                    <a href="#">Мої замовлення</a>
+                </li>
+                <li>
+                    <a href="#">Кошик</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</section>
+<br>
+<footer>
+    <div class="soc">
+        <a href="https://www.facebook.com/">Facebook</a>
+        <a href="https://www.instagram.com/">Instagram</a>
+        <a href="https://www.youtube.com/">Youtube</a>
+    </div>
+    <br>
+    <div class="contacts">
+        <a class="header-phone" href="#">Інфолінія +38 099 667 42 62</a>
+        <a class="work-days">
+            <small>пн-пт з 9:00 до 18:00</small>
+        </a>
+    </div>
+    <br>
+    <div class="link">
+        <a class="inf">
+            <small>2019 Lukas</small>
+        </a>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</main>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
