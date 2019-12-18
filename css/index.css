@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Alatsi|Lobster&display=swap'); 
 :root {
     font-family: 'Alatsi', sans-serif;
-    --main-color: black; }
+    --main-color: black; 
+    }
 
 body {
     max-width: 980px;
@@ -26,8 +27,9 @@ body {
 .row-menu a {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: black;   
 }
+
 h1 {
     font-family: 'Lobster', cursive;
     font-size: 4rem;

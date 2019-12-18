@@ -2,22 +2,7 @@ const clock = document.querySelector('.clock')
 const updateTime = () => clock.innerHTML = new Date().toLocaleTimeString();
 setInterval(updateTime,1000);
 
-btnEnglishSwitchON.addEventListener('click',langEngChange);
-function langEngChange(){
-}
-const btnClothes = document.querySelector('.clothes');
-btnClothes.addEventListener('click', clothes);
-function clothes() {
-    const xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === 4 && xhr.status === 200) {
-            document.querySelector('.product-list')
-                .innerHTML = xhr.responseText;
-        }
-    }
-    xhr.open('GET', 'client-data.html', true);
-    xhr.send();
-}
+
 const sect = document.querySelector('section');
 const para = document.createElement('p');
 para.classList.add('dynamic');
