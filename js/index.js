@@ -6,6 +6,7 @@ const sect = document.querySelector('section');
 const para = document.createElement('p');
 para.classList.add('dynamic');
 
+
 document.querySelector('.login-form input[type=submit]')
     .addEventListener('click', login);
 function login(e) {
@@ -22,6 +23,5 @@ function login(e) {
     })
     .then(_ => document.querySelector('.login-form').reset());
 }
-
 $('p').hide();
-$('.showme').click(() => $('p').toggle(3000));
+$('.show-me').click(() => $('p').toggle(3000));

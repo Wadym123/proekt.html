@@ -1,94 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>contact</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>contact</title>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="css/form.css">
     </head>
     <body>
         <div>
-            <h3>Контакт</h3>
+            <h3>Контакти</h3>
             <form method="POST" action="https://formspree.io/mkngonag">
-            <div class="container">
-                <form action="/action_page.php">
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="fname">First Name</label>
+                <div class="container">
+                    <form action="action_page">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="fname">First Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="firstname" placeholder="Your name.." name="name" required>
+                            </div>
                         </div>
-                        <div class="col-75">
-                            <input type="text" id="fname" name="firstname" placeholder="Your name.." name="name" required>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Last Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name.." name="name" required>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="lname">Last Name</label>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="country">Country</label>
+                            </div>
+                            <div class="col-75">
+                                <select id="country" name="country">
+                                    <option value="australia">Ukraine</option>
+                                    <option value="canada">Poland</option>
+                                    <option value="usa">USA</option>
+                                </select>
+                            </div>
                         </div>
-                        <div class="col-75">
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name.." name="name" required>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="subject">Subject</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="country">Country</label>
+                        <div class="row">
+                            <input type="submit" value="Submit">
                         </div>
-                        <div class="col-75">
-                            <select id="country" name="country">
-                                <option value="australia">Ukraine</option>
-                                <option value="canada">Poland</option>
-                                <option value="usa">USA</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-25">
-                            <label for="subject">Subject</label>
-                        </div>
-                        <div class="col-75">
-                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <input type="submit" value="Submit">
-                    </div>
-                </form>
-            </div>
-            <footer>
-                <div class="soc">
-    <div>
-      <a href="https://www.facebook.com/">
-        <i class="fab fa-facebook-f"></i></a>
-    </div>
-    <div>
-      <a href="https://www.instagram.com/">
-        <i class="fab fa-instagram"></i></a>
-    </div>
-    <div>
-      <a href="https://www.youtube.com/">
-        <i class="fab fa-youtube"></i></a>
-    </div>
-    </div>
-                <br>
-                <div class="contacts">
-                    <a class="header-phone" href="#">Інфолінія +38 099 667 42 62</a>
-                    <a class="work-days">
-                        <small>пн-пт з 9:00 до 18:00</small>
-                    </a>
+                    </form>
                 </div>
-                <br>
-                <div class="link">
-                    <a class="inf">
-                        <small>2019 Lukas</small>
-                    </a>
-                </div>
-            </footer>
-        </div>
+                <footer>
+                    <div class="soc">
+                        <div>
+                            <a href="https://www.facebook.com/">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.youtube.com/">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="contacts">
+                        <a class="header-phone" href="#">Інфолінія +38 099 667 42 62</a>
+                        <a class="work-days">
+                            <small>пн-пт з 9:00 до 18:00</small>
+                        </a>
+                    </div>
+                    <br>
+                    <div class="link">
+                        <a class="inf">
+                            <small>2019 Lukas</small>
+                        </a>
+                    </div>
+                </footer>
+           </div>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-      <script defer src="js/form/js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
