@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>інтернет магазин Style</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="css/index.css">
     </head>
@@ -29,7 +30,7 @@
                             </a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="clothes">
+                            <a class="nav-link" href="products">
                                 Одяг<span class="sr-only">(current)</span>
                             </a>
                         </li>
@@ -44,14 +45,18 @@
                             </a>
                         </li>
                     </ul>
+                    </nav>
                 </div>
-            </nav>
-            <div class="row-menu">
-                <nav>
-                    <a href="registration">Registration</a>
-                    <a href="backets">Backets</a> 
-                    </nav> 
-                    </div> 
+                <div class="row-menu">
+                    <a class="nav-link" href="#signModal" data-toggle="modal">
+                      <i class="fas fa-sign-in-alt"></i>
+                        sign<span id="cart-badge" class="badge badge-light"></span>
+                    </a>
+                    <a class="nav-link" href="#cartModal" data-toggle="modal">
+                      <i class="fas fa-shopping-cart"></i>
+                        Cart<span id="cart-badge" class="badge badge-light"></span>
+                    </a>
+                </div>
             <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Пошук</button>
@@ -61,26 +66,6 @@
                     <h1>Style</h1>
                     <div class="header-information">інтернет-магазин чоловічого одягу</div>
                 </div>
-                <br>
-                <nav>
-                    <ul class="menu">
-                        <li>
-                            <a href="main">Головна</a>
-                        </li>
-                        <li>
-                            <a href="#New">Новинки</a>
-                        </li>
-                        <li>
-                            <a href="clothes">Одяг</a>
-                        </li>
-                        <li>
-                            <a href="Accessories">Аксесуари</a>
-                        </li>
-                        <li>
-                            <a href="form.html">Контакти</a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
             <div id="carouselProducts" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -224,9 +209,18 @@
 <br>
 <footer>
     <div class="soc">
-        <a href="https://www.facebook.com/">Facebook</a>
-        <a href="https://www.instagram.com/">Instagram</a>
-        <a href="https://www.youtube.com/">Youtube</a>
+    <div>
+      <a href="https://www.facebook.com/">
+        <i class="fab fa-facebook-f"></i></a>
+    </div>
+    <div>
+      <a href="https://www.instagram.com/">
+        <i class="fab fa-instagram"></i></a>
+    </div>
+    <div>
+      <a href="https://www.youtube.com/">
+        <i class="fab fa-youtube"></i></a>
+    </div>
     </div>
     <br>
     <div class="contacts">
@@ -242,13 +236,12 @@
         </a>
     </div>
 </footer>
+</main>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</main>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>
-    <script src="js/index.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+    <script defer src="js/index.js"></script>
 </body>
 </html>
+

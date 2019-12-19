@@ -7,6 +7,8 @@
 body {
     max-width: 980px;
     margin: auto;
+    background-color: rgb(249, 252, 250);
+    color: rgb(49, 48, 48);
 }
 
 .clock {
@@ -15,10 +17,15 @@ body {
     justify-content: center;
     padding: 10px;
 }
+@media screen and (max-width: 600px) {
+    collapse .navbar-collapse{
+        display: block;
+    }
+}
 
 .row-menu {
     display: flex;
-    padding-right: 90px;
+    padding-right: 30px;
     list-style: none;
     width: 100%;
     justify-content: flex-end;
@@ -40,36 +47,6 @@ h1 {
 .header-information {
     font-size: 1rem;
     text-align: center;
-}
-
-header .menu {
-    display: flex;
-    padding: 0;
-    list-style: none;
-    justify-content: space-around;
-    margin: -10px; 
-}
-
-header .menu a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    border: 1px solid transparent;
-    padding: 5px;
-}
-
-header .menu a:hover {
-    border: 1px solid black;
-}
-
-@media screen and (max-width: 600px) {
-    header .menu {
-        display: none;
-    }
-}
-
-li a:hover:not(.active) {
-    background-color: blue;
 }
 
 h2 {
@@ -271,11 +248,12 @@ h5 {
 
 .soc {
     display: flex;
-    padding-right: 90px;
+    padding-right: 50px;
     list-style: none;
     width: 100%;
     justify-content: space-around;
     margin: 20px;
+    font-size: 30px;
 }
 
 .soc a {

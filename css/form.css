@@ -63,11 +63,13 @@ input[type=submit]:hover {
 }
 .soc {
     display: flex;
-    padding-right: 90px;
+    padding-right: 200px;
+    padding-left: 200px;
     list-style: none;
     width: 100%;
     justify-content: space-around;
     margin: 20px;
+    font-size: 30px;
 }
 
 .soc a {
