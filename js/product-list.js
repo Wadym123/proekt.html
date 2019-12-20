@@ -3,7 +3,7 @@ class ProductList {
     this.cart = cart;
     fetch(productsUrl)
       .then(result => result.json())
-      .then(products => {
+      .then(products => { 
         this.products = products;
         this.renderProducts(renderContainer, products);
         this.addEventListeners();

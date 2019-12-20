@@ -66,7 +66,6 @@ h1 {
     font-family: 'Lobster', cursive;
     font-size: 4rem;
     text-align: center;
-    margin: 0rem 0;
 }
 
 .header-information {
@@ -181,7 +180,7 @@ p {
     right: 0;
 }
 
-.mailing {
+.mail {
     border-style: double
 }
 
