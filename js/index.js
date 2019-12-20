@@ -2,6 +2,13 @@ const clock = document.querySelector('.clock')
 const updateTime = () => clock.innerHTML = new Date().toLocaleTimeString();
 setInterval(updateTime,1000);
 
+const cart = new Cart($('#cartModal'));
+const productList = new ProductList(
+  'products.json',
+  $('.products-container'),
+  cart
+);
+
 const sect = document.querySelector('section');
 const para = document.createElement('p');
 para.classList.add('dynamic');

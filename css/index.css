@@ -18,10 +18,8 @@ body {
     justify-content: center;
     padding: 10px;
 }
-@media screen and (max-width: 600px) {
-    collapse .navbar-collapse{
-        display: block;
-    }
+a {
+  text-decoration: underline;
 }
 
 .row-menu {
@@ -30,6 +28,7 @@ body {
     list-style: none;
     width: 100%;
     justify-content: flex-end;
+    background-color: rgb(153, 77, 224);
 }
 
 .row-menu a {
@@ -55,6 +54,13 @@ input[type=text] {
 
 input[type=text]:focus {
     width: 40%;
+}
+.alert {
+    position: fixed;
+    top: 50px; 
+    width: 50%;
+    left: 25%;
+    z-index: 1051;
 }
 h1 {
     font-family: 'Lobster', cursive;
@@ -92,7 +98,7 @@ h2 {
 
 .product-list .clothes {
     position: absolute;
-    top: 100%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -123,14 +129,17 @@ h3 {
     text-indent: 50px;
     font-size: 1.4rem;
     margin: 50px 30px 6px 10px;
+    padding-left: 10px;
 }
 
 .about-shop {
     text-indent: 50px;
+    padding-left: 10px;
 }
 
 p {
     text-indent: 50px;
+    padding-left: 10px;
 }
 
 .show-me {
@@ -172,14 +181,6 @@ p {
     right: 0;
 }
 
-img {
-    border-radius: 8px;
-    display: flex;
-    padding: 30px;
-    width: 100%;
-    justify-content: flex-start;
-}
-
 .mailing {
     border-style: double
 }
@@ -194,13 +195,13 @@ h5 {
     font-size: 1rem;
     text-align: center;
     border-bottom: double;
-    padding: 10px;
+    padding: 30px;
 }
 
 .list .help {
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 0px;
     list-style: none;
     align-items: center;
 }

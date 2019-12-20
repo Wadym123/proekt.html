@@ -1,0 +1,65 @@
+[
+    {
+        "id": "1",
+        "title": "Куртка",
+        "image": "jackettt.jpg",
+        "description": "Куртка чоловіча зимова парка синього кольору Style.",
+        "price": 1250.00
+    },
+    {
+        "id": "2",
+        "title": "Куртка",
+        "image": "jackett.jpg",
+        "description": "Куртка чоловіча зимова парка кольору хакі Style.",
+        "price": 1250.00
+    },
+    {
+        "id": "3",
+        "title": "Куртка",
+        "image": "gray.jpg",
+        "description": "Куртка чоловіча зимова парка сірого кольору Style.",
+        "price": 1250.00
+    },
+    {
+        "id": "4",
+        "title": "Светер",
+        "image": "sweterrrr.webp",
+        "description": "Чоловіча товстовка без капюшону Style.",
+        "price": 400
+    },
+    {
+        "id": "5",
+        "title": "Светер",
+        "image": "sweterr.jpg",
+        "description": "Чоловіча товстовка без капюшону Style.",
+        "price": 400
+    },
+    {
+        "id": "6",
+        "title": "Светер",
+        "image": "sweterrr.jpg",
+        "description": "Толстовка зимова. У подарунок шапка або горловик.Style",
+        "price": 700
+    },
+    {
+        "id": "7",
+        "title": "Взуття",
+        "image": "shoe.jpg",
+        "description": "Чоловічі черевики утеплені.Style",
+        "price": 500
+    },
+    {
+        "id": "8",
+        "title": "Взуття",
+        "image": "shoesss.jpg",
+        "description": "Чоловічі черевики утеплені.Style",
+        "price": 500
+    },
+    {
+        "id": "9",
+        "title": "Взуття",
+        "image": "shoessss.jpg",
+        "description": "Чоловічі черевики утеплені.Style",
+        "price": 500
+    }
+]
